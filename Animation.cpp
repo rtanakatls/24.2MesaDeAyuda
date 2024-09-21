@@ -79,13 +79,13 @@ void execute()
         draw_down(i);
         draw_left(i);
         draw_up(i);
-
     }
 }
 
 
 
-int main()
+int main2()
 {
     execute();
+    return 0;
 }
