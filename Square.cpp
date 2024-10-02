@@ -22,7 +22,7 @@ int leer_n()
 
 }
 
-static void dibujar_cuadrado(int identificador, int espacios)
+void dibujar_cuadrado(int identificador, int espacios)
 {
     //este for se encarga de dibujar las filas
     for (int i = 1; i <= 4; i++)
@@ -49,7 +49,7 @@ static void dibujar_cuadrado(int identificador, int espacios)
     }
 }
 
-int main()
+int main3()
 {
     int value = leer_n();
     //este for indica los identificadores de los cuadrados
@@ -63,5 +63,6 @@ int main()
         std::cout << "\n";
 
     }
-    
+
+    return 0;
 }
