@@ -84,7 +84,7 @@ void execute()
 
 
 
-int main2()
+int main1()
 {
     execute();
     return 0;

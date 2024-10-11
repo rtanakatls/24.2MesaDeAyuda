@@ -56,7 +56,7 @@ void dibujar_cuadrado2(int identificador, bool isMiddle)
     }
 }
 
-int main()
+int main4()
 {
     while (true)
     {
